@@ -1,0 +1,128 @@
+body{
+    margin: 0 auto;
+}
+#slika2{
+    border-radius: 50px;
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    padding:20px;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.header1{
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:flex-start;
+}
+.header2{
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.text{
+    max-width: 400px;
+}
+h1{
+    font-size: 48px;
+}
+p{
+    font-size: 18px;
+}
+#calltoaction{
+    font-weight: bolder;
+    background-color: #3882F6;
+    border-color: aliceblue;
+    color: aliceblue;
+    border-radius: 10px;
+    width: 80px;
+    height: 25px;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:30px;
+    padding:20px;
+}
+.one{
+    display: flex;
+    flex-direction: column;
+    max-width:min-content;
+    text-align: center;
+    gap:10px;
+}
+.slikica{
+    border-radius: 20%; 
+}
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    gap:20px;
+}
+.container3{
+    background-color: rgb(194, 186, 186);
+    padding:80px;
+    display: flex;
+    justify-content: center;
+}
+.notri{
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.odstavek{
+    font-size: 24px;
+    font-style: italic;
+    text-align: justify;
+}
+.avtor{
+    align-self: flex-end;
+}
+.container4{
+padding: 100px; 
+align-items: center;
+}
+.notri2{
+margin: 30px;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+border-radius: 20px;
+background-color: #3882F6;
+}
+
+.Call{
+    color: aliceblue;
+}
+#gumb{
+font-weight: bolder;
+background-color: #3882F6;
+border-color: aliceblue;
+color: aliceblue;
+color: rgb(115, 145, 172);
+}
+.footer{
+color: aliceblue;
+display: flex;
+background-color: #1F2937;
+justify-content: center;
+align-items: center;
+}
+a:hover{
+    color: rgb(115, 145, 172);
+}
